@@ -1,0 +1,30 @@
+PART B
+Document Outline:
+1. Comp 484 - Structuring Pages (main heading)
+   1.1 Navigation menu (6 links)
+   2. Conveying meaning through structure
+      2.1 Sectioning elements
+      2.2 Document outlines
+          2.2.1 W3C Warning (aside)
+      2.3 WAI-ARIA Roles
+   3. Footer (CSUN contact info)
+
+Structural Tags:
+
+<aside>: Used for the W3C Warning box
+<article>: Wraps all the main content about page structuring
+<nav>: Has site navigation menu with links to different pages
+<section>: Divides the article into three topics
+
+PART C
+<header role="banner">: Contains the site title (h1), subtitle (h2), and navigation - appears at the top
+<main role="main">: Wraps the primary content of the page (the article)
+<footer role="contentinfo">: Contains site-wide footer information (CSUN address)
+
+ARIA Roles Used:
+
+role="banner" - identifies the header as the site banner
+role="navigation" - identifies the nav as the navigation area
+role="main" - identifies the main content area
+role="complementary" - identifies the aside as supplementary content
+role="contentinfo" - identifies the footer as site information
